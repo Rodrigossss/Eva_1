@@ -1,0 +1,103 @@
+/* Navbar */
+.navbar-custom {
+  background-color: #e3f2fd !important; /* color de fondo del navbar */
+}
+
+.navbar-custom .nav-link {
+  font-weight: 500;       
+  font-size: 1.1rem;      
+  margin: 0 10px;         
+}
+
+.navbar-custom .navbar-text {
+  font-size: 1.2rem;      
+  font-weight: bold;       
+}
+
+/* Contenedor de productos */
+.producto-carrito {
+  background-color: #a4cef7; /* color de fondo del rectángulo del producto */
+  border: 1px solid #ddd;    /* borde */
+  border-radius: 8px;        
+  padding: 10px;             
+  margin-bottom: 10px;       
+  display: flex;             
+  align-items: center;       
+  gap: 10px;                 
+}
+
+/* Imagen dentro del producto */
+.producto-carrito img {
+  border-radius: 4px;        
+}
+
+/* Contenedor de los botones de cantidad */
+.cantidad {
+  margin-left: auto;         
+  display: flex;             
+  align-items: center;
+  gap: 5px;                  
+}
+
+/* Botones - y + */
+.cantidad button {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #bcdeff;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;           
+}
+
+/* Número de cantidad */
+.cantidad span {
+  min-width: 20px;           
+  text-align: center;        
+}
+
+/* Contenedor general del carrito */
+.carrito-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;              
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* Contenedor de productos */
+.productos-lista {
+  width: 100%;
+}
+
+/* Contenedor de resumen (total, descuento, pagar) */
+.resumen {
+  width: 100%;             
+  background-color: #c2e4fa;
+  padding: 15px;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.resumen h3 {
+  margin-top: 0;
+}
+
+/* Input y botón de descuento */
+.resumen .descuento {
+  display: flex;
+  gap: 5px;
+  margin: 10px 0;
+}
+
+.resumen input {
+  flex: 1;
+  padding: 5px;
+}
+
+.resumen button {
+  padding: 5px 10px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+}
